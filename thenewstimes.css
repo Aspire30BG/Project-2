@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -13px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 10px;
+}
+.page {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 2px solid black;
+}
+.news-areas {
+  display: flex;
+  flex-direction: row;
+  gap: 14%;
+  width: 100%;
+  color: darkslategrey;
+  font-family: Georgia, 'open-sans';
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding: 20px;
+}
+.box-2 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+  gap: 10px;
+}
+img {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  height: 40%;
+}
+.the-first {
+  border-right: 2px solid black;
+  padding: 10px;
+  width: 200%;
+}
+.the-second {
+  border-right: 2px solid black;
+  padding: 10px;
+  width: 300%;
+}
+.the-third {
+  padding: 10px;
+  width: 200%;
+}
+.box-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 50%
+}
+.the-fourth {
+  border-right: 2px solid black;
+  padding: 10px;
+  width: 104.5%;
+}
+.the-fifth {
+  padding: 10px;
+}
+.topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
